@@ -1,0 +1,12 @@
+prefix=C:/Users/ashu_/OneDrive/Desktop/flask_for_Ml/venv3/Library
+exec_prefix=C:/Users/ashu_/OneDrive/Desktop/flask_for_Ml/venv3/Library
+libdir=C:/Users/ashu_/OneDrive/Desktop/flask_for_Ml/venv3/Library/lib
+includedir=C:/Users/ashu_/OneDrive/Desktop/flask_for_Ml/venv3/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
